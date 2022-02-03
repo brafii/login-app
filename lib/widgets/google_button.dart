@@ -25,6 +25,7 @@ class GoogleButton extends StatelessWidget {
           padding: EdgeInsets.all(10.0),
           textStyle: TextStyle(
             fontSize: 16.0,
+            fontFamily: 'Nunito',
           ),
         ),
         icon: Icon(FontAwesomeIcons.google, size: 15.0,),
