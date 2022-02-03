@@ -20,6 +20,7 @@ class Footer extends StatelessWidget {
           style: TextStyle(
             color: Color(0xff5687eb),
             fontSize: 13.0,
+            fontFamily: 'Nunito'
           ),
         ),
         SizedBox(width: 2.0),
@@ -29,6 +30,7 @@ class Footer extends StatelessWidget {
             color: Colors.white,
             fontSize: 13.0,
             fontWeight: FontWeight.bold,
+              fontFamily: 'Nunito'
           ),
         ),
       ],
