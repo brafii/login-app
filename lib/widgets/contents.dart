@@ -20,15 +20,17 @@ class NewContents extends StatelessWidget {
             WordOne,
             style: TextStyle(
               color: Colors.white,
+              fontSize: 15.0,
             ),
           ),
         ),
-        SizedBox(height: 10.0),
+        SizedBox(height: 6.0),
         Text(
           WordTwo,
           style: TextStyle(
             color: Colors.white,
-            fontSize: 20.0,
+            fontSize: 19.0,
+            fontWeight: FontWeight.bold,
           ),
         ),
       ],
