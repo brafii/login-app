@@ -25,9 +25,10 @@ class Login extends StatelessWidget {
                   Text(
                     'Welcome',
                     style: TextStyle(
-                      fontSize: 30.0,
+                      fontSize: 33.0,
                       color: Colors.white,
-                      fontFamily: 'Nunito'
+                      fontFamily: 'Nunito',
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(height: 20.0),
