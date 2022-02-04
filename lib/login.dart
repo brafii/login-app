@@ -45,9 +45,17 @@ class Login extends StatelessWidget {
                     labelOne: 'Create an account',
                   ),
                   SizedBox(height: 30),
-                  Footer(
-                    labelOne: 'Already have an account?',
-                    labelTwo: 'Sign in',
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Login()),
+                      );
+                    },
+                    child: Footer(
+                      labelOne: 'Already have an account?',
+                      labelTwo: 'Sign in',
+                    ),
                   ),
                 ],
               ),
