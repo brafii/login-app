@@ -4,7 +4,7 @@ import 'package:login/widgets/contents.dart';
 import 'package:login/widgets/footer.dart';
 import 'package:login/widgets/google_button.dart';
 import 'package:login/widgets/my_button.dart';
-import 'package:login/widgets/sign_in.dart';
+import 'package:login/screens/sign_in.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
