@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class MyButton extends StatelessWidget {
   const MyButton({
     Key? key,
-    required this.labelOne
+    required this.labelOne,
+    required this.textColor,
   }) : super(key: key);
 
   final String labelOne;
+  final Color textColor;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +20,7 @@ class MyButton extends StatelessWidget {
         },
         child: Text(labelOne),
         style: OutlinedButton.styleFrom(
-          primary: Colors.white,
+          primary: textColor,
           side: BorderSide(color: Colors.white),
           padding: EdgeInsets.all(10.0),
           textStyle: TextStyle(

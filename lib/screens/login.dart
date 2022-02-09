@@ -44,6 +44,7 @@ class Login extends StatelessWidget {
                   SizedBox(height: 7.0),
                   MyButton(
                     labelOne: 'Create an account',
+                    textColor: Colors.white,
                   ),
                   SizedBox(height: 30),
                   GestureDetector(
