@@ -55,17 +55,17 @@ class Login extends StatelessWidget {
                     },
                   ),
                   SizedBox(height: 30),
-                  GestureDetector(
-                    onTap: (){
+                  Footer(
+                    labelOne: 'Already have an account?',
+                    labelTwo: 'Sign in',
+                    colorOne: Color(0xff5687eb),
+                    colorTwo: Colors.white,
+                    onPress: (){
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => SignIn()),
                       );
                     },
-                    child: Footer(
-                      labelOne: 'Already have an account?',
-                      labelTwo: 'Sign in',
-                    ),
                   ),
                 ],
               ),
