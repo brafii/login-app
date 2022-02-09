@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login/screens/login.dart';
 import 'package:login/utils/pallette.dart';
+import 'package:login/widgets/my_button.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({Key? key}) : super(key: key);
@@ -138,25 +139,12 @@ class _SignUpState extends State<SignUp> {
                           ),
                           SizedBox(height: 30.0),
                           MyButton(
-                            labelOne: 'Sign in',
+                            labelOne: 'Sign up',
                             backgroundColor: defaultColors,
                             textColor: Colors.white,
                             borderColor: defaultColors,
                             onPress: (){
 
-                            },
-                          ),
-                          SizedBox(height: 60.0),
-                          Footer(
-                            labelOne: 'Dont\'t have an account?',
-                            labelTwo: 'Sign up',
-                            colorOne: Color(0xff8691a3),
-                            colorTwo: defaultColors,
-                            onPress: (){
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => SignIn()),
-                              );
                             },
                           ),
                         ],

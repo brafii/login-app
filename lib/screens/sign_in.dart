@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login/screens/sign_up.dart';
 import 'package:login/utils/pallette.dart';
 import 'package:login/widgets/footer.dart';
 import 'package:login/widgets/my_button.dart';
@@ -148,7 +149,7 @@ class SignIn extends StatelessWidget {
                             onPress: (){
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => SignIn()),
+                                MaterialPageRoute(builder: (context) => SignUp()),
                               );
                             },
                           ),
