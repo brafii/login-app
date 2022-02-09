@@ -4,7 +4,7 @@ Login UI
 
 ## Day 1 challenge flutter login UI
 
-This is a daily challenge to master in flutter application.
+This is a daily challenge to master in building flutter applications.
 
 First task was to develop a login UI purposely to get equiped and get comfortable in UI:
 
