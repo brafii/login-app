@@ -83,8 +83,41 @@ class SignIn extends StatelessWidget {
                               fontFamily: 'Nunito',
                             ),
                           ),
-                          SizedBox(height: 15.0),
-                          
+                          SizedBox(height: 55.0),
+                          TextFormField(
+                            keyboardType: TextInputType.text,
+                            decoration: InputDecoration(
+                              filled: true,
+                              fillColor: Color(0xfff6f7f9),
+                              labelText: 'Enter your username or email',
+                              hintText: 'Enter your username or email',
+                              labelStyle: TextStyle(color: Color(0xff8691a3)),
+                              enabledBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Color(0xfff6f7f9)),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Color(0xfff6f7f9)),
+                              ),
+                            ),
+                          ),
+                          SizedBox(height: 20.0),
+                          TextFormField(
+                            obscureText: true,
+                            keyboardType: TextInputType.text,
+                            decoration: InputDecoration(
+                              filled: true,
+                              fillColor: Color(0xfff6f7f9),
+                              labelText: 'Password',
+                              hintText: 'Password',
+                              labelStyle: TextStyle(color: Color(0xff8691a3)),
+                              enabledBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Color(0xfff6f7f9)),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Color(0xfff6f7f9)),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     ),
