@@ -78,22 +78,14 @@ class _SignUpState extends State<SignUp> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Welcome Back',
+                            'Create Account',
                             style: TextStyle(
                               fontFamily: 'Nunito',
                               fontWeight: FontWeight.bold,
                               fontSize: 24.0,
                             ),
                           ),
-                          SizedBox(height: 5.0),
-                          Text(
-                            'Hello there, sign in to continue!',
-                            style: TextStyle(
-                              color: Color(0xff8691a3),
-                              fontFamily: 'Nunito',
-                            ),
-                          ),
-                          SizedBox(height: 40.0),
+                          SizedBox(height: 30.0),
                           TextFormField(
                             keyboardType: TextInputType.text,
                             decoration: InputDecoration(
@@ -128,15 +120,25 @@ class _SignUpState extends State<SignUp> {
                               ),
                             ),
                           ),
-                          SizedBox(height: 10.0),
-                          Text(
-                            'Forgot Password?',
-                            style: TextStyle(
-                              color: defaultColors,
-                              fontFamily: 'Nunito',
-                              fontWeight: FontWeight.bold,
+                          SizedBox(height: 20.0),
+                          TextFormField(
+                            obscureText: true,
+                            keyboardType: TextInputType.text,
+                            decoration: InputDecoration(
+                              filled: true,
+                              fillColor: Color(0xfff6f7f9),
+                              labelText: 'Confirm Password',
+                              hintText: 'Confirm Password',
+                              labelStyle: TextStyle(color: Color(0xff8691a3)),
+                              enabledBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Color(0xfff6f7f9)),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Color(0xfff6f7f9)),
+                              ),
                             ),
                           ),
+
                           SizedBox(height: 30.0),
                           MyButton(
                             labelOne: 'Sign up',
