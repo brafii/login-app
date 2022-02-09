@@ -6,7 +6,7 @@ Login UI
 
 This is a daily challenge to master in building flutter applications.
 
-First task was to develop a login UI purposely to get equiped and get comfortable in UI:
+First task was to develop a login UI purposely to get equiped and get comfortable in developing flutter frontend screens:
 
 - The image below is the UI app developed
 
