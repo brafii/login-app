@@ -78,7 +78,13 @@ class SignIn extends StatelessWidget {
                           SizedBox(height: 5.0),
                           Text(
                             'Hello there, sign in to continue!',
+                            style: TextStyle(
+                              color: Color(0xff8691a3),
+                              fontFamily: 'Nunito',
+                            ),
                           ),
+                          SizedBox(height: 15.0),
+                          
                         ],
                       ),
                     ),
