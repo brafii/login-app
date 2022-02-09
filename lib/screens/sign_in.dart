@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login/utils/pallette.dart';
+import 'package:login/widgets/footer.dart';
 import 'package:login/widgets/my_button.dart';
 
 class SignIn extends StatelessWidget {
@@ -136,6 +137,19 @@ class SignIn extends StatelessWidget {
                             borderColor: defaultColors,
                             onPress: (){
 
+                            },
+                          ),
+                          SizedBox(height: 60.0),
+                          Footer(
+                            labelOne: 'Dont\'t have an account?',
+                            labelTwo: 'Sign up',
+                            colorOne: Color(0xff8691a3),
+                            colorTwo: defaultColors,
+                            onPress: (){
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => SignIn()),
+                              );
                             },
                           ),
                         ],
