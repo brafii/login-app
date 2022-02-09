@@ -45,6 +45,13 @@ class Login extends StatelessWidget {
                   MyButton(
                     labelOne: 'Create an account',
                     textColor: Colors.white,
+                    borderColor: Colors.white,
+                    onPress: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SignIn()),
+                      );
+                    },
                   ),
                   SizedBox(height: 30),
                   GestureDetector(
