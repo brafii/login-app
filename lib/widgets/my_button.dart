@@ -6,12 +6,14 @@ class MyButton extends StatelessWidget {
     required this.labelOne,
     required this.textColor,
     required this.borderColor,
+    required this.backgroundColor,
     required this.onPress,
   }) : super(key: key);
 
   final String labelOne;
   final Color textColor;
   final Color borderColor;
+  final Color backgroundColor;
   final VoidCallback onPress;
 
   @override
@@ -22,6 +24,7 @@ class MyButton extends StatelessWidget {
         onPressed: onPress,
         child: Text(labelOne),
         style: OutlinedButton.styleFrom(
+          backgroundColor: backgroundColor,
           primary: textColor,
           side: BorderSide(color: borderColor),
           padding: EdgeInsets.all(10.0),

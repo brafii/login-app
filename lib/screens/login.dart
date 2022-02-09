@@ -46,6 +46,7 @@ class Login extends StatelessWidget {
                     labelOne: 'Create an account',
                     textColor: Colors.white,
                     borderColor: Colors.white,
+                    backgroundColor: defaultColors,
                     onPress: (){
                       Navigator.push(
                         context,

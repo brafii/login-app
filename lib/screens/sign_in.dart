@@ -84,7 +84,7 @@ class SignIn extends StatelessWidget {
                               fontFamily: 'Nunito',
                             ),
                           ),
-                          SizedBox(height: 55.0),
+                          SizedBox(height: 40.0),
                           TextFormField(
                             keyboardType: TextInputType.text,
                             decoration: InputDecoration(
@@ -118,6 +118,25 @@ class SignIn extends StatelessWidget {
                                 borderSide: BorderSide(color: Color(0xfff6f7f9)),
                               ),
                             ),
+                          ),
+                          SizedBox(height: 10.0),
+                          Text(
+                            'Forgot Password?',
+                            style: TextStyle(
+                              color: defaultColors,
+                              fontFamily: 'Nunito',
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(height: 30.0),
+                          MyButton(
+                            labelOne: 'Sign in',
+                            backgroundColor: defaultColors,
+                            textColor: Colors.white,
+                            borderColor: defaultColors,
+                            onPress: (){
+
+                            },
                           ),
                         ],
                       ),
