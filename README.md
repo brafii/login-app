@@ -2,15 +2,12 @@
 
 Login UI
 
-## Getting Started
+## Day 1 challenge flutter login UI
 
-This project is a starting point for a Flutter application.
+This is a daily challenge to master in building flutter applications.
 
-A few resources to get you started if this is your first Flutter project:
+First task was to develop a login UI purposely to get equiped and get comfortable in developing flutter frontend screens:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- The image below is the UI app developed
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![loginUI!](https://i.pinimg.com/564x/b8/da/21/b8da2134b789c39afbefcc99299a931d.jpg)
